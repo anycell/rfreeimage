@@ -1,3 +1,0 @@
-[submodule "vendor/FreeImage"]
-	path = vendor/FreeImage
-	url = https://github.com/anycell/FreeImage.git
