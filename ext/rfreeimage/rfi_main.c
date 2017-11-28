@@ -77,6 +77,9 @@ convert_bpp(FIBITMAP *orig, unsigned int bpp) {
 		case 8:
 			h = FreeImage_ConvertToGreyscale(orig);
 			break;
+		case 24:
+			h = FreeImage_ConvertTo24Bits(orig);
+			break;
 		case 32:
 			h = FreeImage_ConvertTo32Bits(orig);
 			break;
